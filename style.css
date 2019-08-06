@@ -1,0 +1,57 @@
+body {
+    background-image: url("./quora.png");
+    background-size: 100%;
+}
+
+.card {
+    width: 650px;
+    height: 590px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#logo {
+
+    width: 250px;
+    height: 80px;
+    padding: 10px;
+}
+
+.logo-div {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#slogan {
+    font-family:'q_serif',Georgia,Times,"Times New Roman","Hiragino Kaku Gothic Pro","Meiryo",serif;
+    color: #949494;
+    font-size: 20px;
+}
+
+#buttons {
+    display: flex; 
+    justify-content: space-between;
+
+}
+
+.response {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    font-family:'q_serif',Georgia,Times,"Times New Roman","Hiragino Kaku Gothic Pro","Meiryo",serif;
+}
+
+.response {
+    font-family:'q_serif',Georgia,Times,"Times New Roman","Hiragino Kaku Gothic Pro","Meiryo",serif;
+}
+
+#response-content{
+    text-align: center;
+}
